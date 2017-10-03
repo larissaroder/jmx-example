@@ -3,11 +3,13 @@ package br.com.db1;
 import java.util.Date;
 
 public interface CountMBean {
-    public boolean getDoLog();
+	boolean getDoLog();
 
-    public int getListCount();
+	int getListCount();
 
-    public void clearMap();
+	void clearList();
 
-    Date getDate();
+	Date getDate();
+
+	void changeValue(boolean doLog);
 }
