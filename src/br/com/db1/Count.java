@@ -14,7 +14,7 @@ public class Count implements CountMBean {
 		if (doLog) {
 			idList.add(id);
 		}
-		System.out.println("Start Logging id=" + id);
+		System.out.println("Start Logging id=" + idList.size());
 	}
 
 	@Override
